@@ -1,0 +1,8 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: prueba-eclipse-toneanalizer
+  host: prueba-eclipse-toneanalizer
+  disk_quota: 1024M
